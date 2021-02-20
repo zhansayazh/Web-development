@@ -1,0 +1,120 @@
+body {
+	background-color: rgb(234, 234, 250);
+
+}
+
+#title {
+	margin-left: 170px;
+	margin-top: 110px;
+}
+#hello {
+	margin-left: 170px;
+	margin-top: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+.page {
+	width: 350px;
+	height: 300px;
+	background-color: white;
+	margin-left: 750px;
+	margin-top: -250px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+.email {
+	margin-left: 760px;
+	margin-top: -295px;
+	
+}
+
+#namebox{
+	width:307px;
+	height:25px;
+	border-radius:5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+
+#button1{
+	width:330px;
+	height: 45px;
+	border-radius: 5px;
+	/*margin-left: 0px;
+	margin-top: -100px;*/
+	margin-top: 8px;
+	background:rgb(30, 102, 238);
+	font-family:verdana;
+	font-size:18px;
+	color:white;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	
+	
+}
+#forget {
+	text-align:center;
+	color: blue;
+	font-family:sans-serif;
+	width: 330px;
+	padding-bottom:  10px;
+	font-size: 14px;
+	position: absolute;
+}
+#line {
+	width: 330px;
+	margin-left: 760px;
+	margin-top: -145px;
+}
+#button2{
+	width: 190px;
+	height: 50px;
+	border-radius: 5px;
+	/*margin-left: 0px;
+	margin-top: -100px;*/
+	margin-top: 60px;
+	margin-left: 70px;
+	background:green;
+	font-family:verdana;
+	font-size:18px; 
+	color:white;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	
+	
+}
+#celebrity {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-left: -170px;
+	margin-top:40px;
+}
+.page2 {
+	width: 1272px;
+	height: 160px;
+	margin-top: 160px;
+	background-color: white;
+}
+.vniz {
+	margin-left:200px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top: -140px;
+	font-size: 13px;
+	opacity: 0.5;
+}
+#line2 {
+	width: 858px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
