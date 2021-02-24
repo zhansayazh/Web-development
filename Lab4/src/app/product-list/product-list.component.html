@@ -1,0 +1,20 @@
+<p class="head">Products</p>
+
+<div *ngFor="let product of products">
+    <h3>
+        <a href="{{product.link}}">
+            {{ product.name }}
+          </a>
+    </h3>
+    <p class="image">
+        <img src="{{product.image}}" width="160">
+    </p>
+    <p class = "text">
+        <strong>Description:</strong> {{ product.description }} <br> <br>
+        <strong>Rating:</strong> {{ product.rating }}
+    </p>
+    <button (click)="share(product.link)" style="width: 100px; height: 50px;">
+        <a style="font-size: 25px; color: white;">Share</a>
+    </button>
+    
+</div>
